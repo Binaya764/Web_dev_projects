@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(rgb(248, 170, 170) rgb(187, 236, 150));
+    font-family: sans-serif;
+    padding: 30px;
+   
+}
+h2{
+    text-align: center;
+    
+}
+#name{
+    display: inline
+}
+div{
+    margin-top:10px;
+}
+.form{
+    width:800px;
+    align-items: center;}
+
+#contactForm{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    background: linear-gradient(rgb(94, 127, 180));
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius:10%;
+    margin: left 0.5;;
+    
+}
+button{
+    width:70px;
+    height:30px;
+    text-align: center;
+}
+label{
+    color:white;
+}
+@media (max-width: 600px) {
+    #name{
+        width: 60px;
+    }
+    #email{
+        width:60px;
+    }
+    #age{
+        width:60px;
+    }
+    #location{
+        width:60px;
+    }
+    
+}
