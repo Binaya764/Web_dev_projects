@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.container{
+    width: 70vh;
+    height: 50vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding-left: 20px;
+    margin:5vh;
+}
+#name{
+     font-size: 3vh;
+     font-weight: bold;
+     
+     margin-top: 5vh;
+
+}
+#user_name{
+    background-color: whitesmoke;
+    height: 4vh;
+    width: 60vh;
+
+  
+   
+}
+
+#password{
+    font-size:3vh;
+
+    font-weight: bold;
+
+}
+
+#user_password{
+    background-color: whitesmoke;
+    width: 60vh;
+    height: 4vh;
+}
+
+
