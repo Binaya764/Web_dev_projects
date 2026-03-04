@@ -2,13 +2,19 @@
     padding: 0px;
     margin: 0px;
 }
-
+#login_title{
+    color: white;
+}
 body{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin: 10vh;
+    background-image: url(assets/background_form.jpg);
+    background-size: cover;
+    background-position: center ;
+    
 }
 
 .container{
@@ -21,6 +27,10 @@ body{
     border-radius: 1rem;
     padding-left: 20px;
     margin:5vh;
+
+    background-image: url(assets/background_form.jpg);
+    background-size: cover;
+    background-position: left;
 }
 #name{
      font-size: 3vh;
@@ -33,6 +43,9 @@ body{
     background-color: whitesmoke;
     height: 4vh;
     width: 60vh;
+    padding-left: 10px;
+    border : none;
+    border-radius: 5px;
 
   
    
@@ -42,6 +55,8 @@ body{
     font-size:3vh;
 
     font-weight: bold;
+    margin-top: 20px;
+   
 
 }
 
@@ -49,6 +64,34 @@ body{
     background-color: whitesmoke;
     width: 60vh;
     height: 4vh;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
+#login_btn{
+    width: 20vh;
+    height: 4vh;
+    margin-left: 10px;
+}
+
+#signup{
+    font-size: 20px;
+    color: white;
+}
+
+#forgot{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 35vh;
+    display: inline;
+   
+   
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(121, 120, 120);
+}
 

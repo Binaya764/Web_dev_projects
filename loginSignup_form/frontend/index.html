@@ -7,7 +7,7 @@
     <link rel ="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
+    <h1 id = "login_title">Login</h1>
     <div class ="container">
         
             <label for ="user_name" id ="name">Username</label>
@@ -16,11 +16,12 @@
 
         
             <label for ="user_password" id="password">Password</label>
-            <input type = "password" id = user_password placeholder="xxxxx..."">
-             <h3 id="forgot">Forgot your password?</h3>
+            <input type = "password" id = user_password placeholder="xxxxx...">
+            <h3  class="same"><a href="link" id="forgot">Forgot your password?</a></h3>
+            <button id="login_btn" class="same">Login</button>
     </div>
    
-    <h3 id="signup">Create a new account!</h3>
+    <h3  ><a href = "link" id="signup">Create a new account!</a></h3>
     
 </body>
 <script src="server.js"></script>
