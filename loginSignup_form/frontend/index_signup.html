@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="user_signup">Sign Up</h1>
+    <div class = "signup_container">
+        <form >
+            <fieldset>
+                <label for="first_name">First name</label>
+                <input type = "text" id = "first_name" placeholder="First name ...">
+
+                <label for = "last_name">Last name</label>
+                <input type ="text" id = "last_name" placeholder=" Last name .. ">
+            </fieldset>
+            <fieldset>
+                <label for = "user_email">Email</label>
+                <input type = "email" id = "user_email" placeholder="Email">
+
+                <label for = "user_password"> Password</label>
+                <input type = "password" id = "user_password" placeholder="xxxxxxx">
+
+            </fieldset>
+            <fieldset>
+                <label for ="DOB">Date Of Birth:</label>
+                <input type = "date" id = "user_dob" placeholder = " 2026">
+
+                <label for = "user_age">Age</label>
+                <input type = "number" id = "user_age" placeholder = "....">
+
+            </fieldset>
+           
+            <fieldset id = "gender">
+            <label>Male</label>
+            <input type = "radio" id = "user_gender" >
+            <label>Female</label>
+            <input type = "radio" id = "user_gender" >
+            <label>Other</label>
+            <input type = "radio" id = "user_gender" >
+            </fieldset>
+            <button id = "submit_btn">Submit</button>
+           
+        </form>
+
+    </div>
+    
+</body>
+<script src = "server.js"></script>
+</html>
