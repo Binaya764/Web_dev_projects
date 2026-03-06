@@ -93,3 +93,92 @@ a:hover{
     color: rgb(121, 120, 120);
 }
 
+.signup_container{
+    border: none solid black;
+    width: 90vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    margin: 10px;
+    background-image: url(assets/background_form.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    
+}
+fieldset{
+    margin: 20px 10px 40px 20px;
+    
+}
+
+#submit_btn{
+    margin-left: 20px;
+}
+#label_firstname{
+    margin-right: 5px;
+}
+#first_name{
+    margin-right: 50px;
+}
+
+
+.signup_name{
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.signup_email{
+    color: white;
+    font-size: 15px;
+    border: none;
+    
+
+}
+
+#label_email{
+    margin-right: 30px;
+}
+#user_email{
+    margin-right: 50px;
+}
+
+#label_password{
+    margin-right: 9px;
+}
+
+.signup_age{
+    border: none;
+    color: white;
+}
+
+#user_dob{
+    margin-right: 72px;
+    
+}
+#label_age{
+    margin-right: 43px;
+}
+
+#gender{
+    border: none;
+    color: white;
+   
+    
+}
+#user_gender1{
+    margin-right: 30px;
+}
+#user_gender2{
+    margin-right: 30px;
+}
+
+#submit_btn{
+    height: 25px;
+    width: 60px;
+}
+#user_signup{
+    color: white;
+}
