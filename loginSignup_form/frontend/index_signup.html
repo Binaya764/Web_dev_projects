@@ -9,7 +9,7 @@
 <body>
     <h1 id="user_signup">Sign Up</h1>
     <div class = "signup_container">
-        <form >
+        <form id ="signup_form">
             <fieldset class = "signup_name">
                 <label for="first_name" id = "label_firstname">First name</label>
                 <input type = "text" id = "first_name" placeholder="First name ..." required>
@@ -18,10 +18,10 @@
                 <input type ="text" id = "last_name" placeholder=" Last name .. " required>
             </fieldset>
             <fieldset class="signup_email">
-                <label for = "user_email "id="label_email">Email</label>
+                <label for ="user_email "id="label_email">Email</label>
                 <input type = "email" id = "user_email" placeholder="Email" required>
 
-                <label for = "user_singup_password" id ="label_password"> Password</label>
+                <label for = "user_signup_password" id ="label_password"> Password</label>
                 <input type = "password" id = "user_signup_password" placeholder="xxxxxxx" required>
 
             </fieldset>
@@ -36,13 +36,13 @@
            
             <fieldset id = "gender">
             <label>Male</label>
-            <input type = "radio" id = "user_gender1" >
+            <input type = "radio" name = "gender"id = "user_gender1" >
             <label>Female</label>
-            <input type = "radio" id = "user_gender2" >
+            <input type = "radio" name = "gender" id = "user_gender2" >
             <label>Other</label>
-            <input type = "radio" id = "user_gender3" >
+            <input type = "radio" name = "gender" id = "user_gender3" >
             </fieldset>
-            <button id = "submit_btn">Submit</button>
+            <button id = "submit_btn" type = "submit">Submit</button>
            
         </form>
 
